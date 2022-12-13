@@ -132,6 +132,7 @@
       right: 40px;
       top: 0;
       width: 600px;
+      z-index: 999999;
     }
     .${elementRef}-head {
       background: #000;
@@ -179,7 +180,7 @@
       font-weight: bold!important;
     }
     .${elementRef}-highlight {
-      border: 5px red solid!important;
+      outline: 5px red solid!important;
       background-color: rgba(255, 0, 0, 0.2)!important;
     }
     .${elementRef}-list:not(.open) {
