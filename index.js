@@ -1,6 +1,6 @@
 (() => {
 
-  const axeSrc = 'https://cdnjs.cloudflare.com/ajax/libs/axe-core/4.5.2/axe.min.js'
+  const axeSrc = 'https://cdnjs.cloudflare.com/ajax/libs/axe-core/4.10.3/axe.min.js'
   const elementRef = 'axe-core-test-ui'
 
   const escapeHTML = (str) => {
